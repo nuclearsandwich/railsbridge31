@@ -12,6 +12,9 @@ You folks are heroes!
 
 # Resources #
 
+- **Emily's Pinterest**: <http://pinterest.com/eanakashima/learn-the-front-end/>
+  - A list of really superb references for learning front-end development.
+
 - **DocHub**: <http://dochub.io> - Fast and easy search of the HTML, CSS, and
   JavaScript reference material.
 
