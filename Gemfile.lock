@@ -1,7 +1,7 @@
-GEM
-  remote: https://rubygems.org/
+GIT
+  remote: git://github.com/nuclearsandwich/deck.rb.git
+  revision: 69ba6dc9f848c50075140854514bc4a8a2802970
   specs:
-    coderay (1.0.5)
     deckrb (0.2.1)
       coderay
       erector (>= 0.9.0.pre1)
@@ -10,6 +10,12 @@ GEM
       rack
       rack-codehighlighter
       redcarpet (~> 2)
+      trollop
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    coderay (1.0.5)
     erector (0.9.0.pre1)
       treetop (>= 1.2.3)
     json (1.6.5)
@@ -23,9 +29,10 @@ GEM
     treetop (1.4.10)
       polyglot
       polyglot (>= 0.3.1)
+    trollop (1.16.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  deckrb
+  deckrb!
